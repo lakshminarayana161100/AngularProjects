@@ -1,0 +1,24 @@
+<mat-toolbar class="primary">
+    <mat-toolbar-row>
+        <button mat-icon-button>
+            <mat-icon (click)="sidenavtoggle();">menu</mat-icon>
+        </button>
+        <h1>flipkart</h1>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+ <mat-sidenav-container>
+    <mat-sidenav>
+        <mat-nav-list>
+            <a mat-list-item>HOME</a>
+            <a mat-list-item>Account</a>
+            <a mat-list-item>Mobile</a>
+            <a mat-list-item>Laptops</a>
+            <a mat-list-item>Hard disc</a>
+            <a mat-list-item>Logout</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 88vh;"></div>
+    </mat-sidenav-content>
+</mat-sidenav-container>  
